@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Empregador Brasil · Seu Site de Empregos</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    
+
+    <link href="css/carousel.css" rel="stylesheet">
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Empregador Brasil </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="sobre.html">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastro</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/vaga1.jpg" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Procuramos atendente.</h1>
+            <p>Cargo: ATENDIMENTO AO CLIENTE (Whatsapp,ligação,presencial) <br> Atividades: Atendimento e Vendas
+
+               COM E SEM EXPERIÊNCIA.</p>
+            <p><a class="btn btn-lg btn-primary" href="atendente.html">Candidatar-me</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/caixa1.jpg" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Procuramos Caixa.</h1>
+            <p>Tipo de Profissional: Caixa
+              <br>
+              Salário: R$ 1.406,16 + Comissão
+              <br>
+              Benefícios: VT, Alimentação no local.</p>
+            <p><a class="btn btn-lg btn-primary" href="caixa.html">Candidatar-me</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/enfermagem.jpg" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+      
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Procuramos Tecnico de Enfermagem</h1>
+            <p>Requisitos: Experiência em Centro Cirúrgico e acompanhamento do paciente, em clínicas e ou hospitais. Experiência em medicação. Ensino técnico de enfermagem completo com Coren ativo.</p>
+            <p><a class="btn btn-lg btn-primary" href="tecenfermagem.html">Candidatar-me</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Proximo</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="img/insta.png" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+
+        <h2 class="fw-normal">Instagram</h2>
+        <p>Nos siga no instagram, postaremos sempre novas vagas por la também.</p>
+        <p><a class="btn btn-secondary" href="#">Seguir &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="img/pngwing.com.png" class="bd-placeholder-img rounded-circle" width="160" height="130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+
+        <h2 class="fw-normal">Whatsapp</h2>
+        <p>Se inscreva no nosso whatsapp e tenha sempre novas vagas de emprego na palma da sua mão.</p>
+        <p><a class="btn btn-secondary" href="#">Inscrever &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="img/Facebook-Logo.png" class="bd-placeholder-img rounded-circle" width="160" height="130" xmlns="" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+
+        <h2 class="fw-normal">Facebook</h2>
+        <p>Nos acompanhe pelo facebook, todos os dias novas vagas serão postadas.</p>
+        <p><a class="btn btn-secondary" href="#">Participar &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Vagas do Dia</h1>
+          <p class="lead text-muted">Todos os dias novas vagas fresquinhas pra você.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Sobre Nós</a>
+            <a href="#" class="btn btn-secondary my-2">Cadastre-se</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga1.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Vendedor</h5>
+                <p class="card-text">Médio Completo que tenha experiência em atendimento e ou Vendas, com Proatividade e queira Crescer juntamente com a empresa.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="vendedor.html"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Porteiro</h5>
+                <p class="card-text">Porteiro para trabalhar em depósito de gás. Ensino Médio completo, atendimento ao cliente presencial, conferencia de estoque, fechamento de caixa e etc.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="porteiro.html"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga3.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Motorista</h5>
+                <p class="card-text">desejáveis: carteira de motorista categoria D, Vivência mínima de 1 ano na função e experiência com entregas de materiais de construção. Regime de contratação: CLT</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="motorista.html"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+           
+            <div class="card shadow-sm">
+              <img src="img/vaga1.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Motoqueiro</h5>
+                <p class="card-text">07 vagas para Cnh AB definitiva ou provisória (em validade), gostar de vendas, ter vontade de trabalhar.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                   <a href="motoqueiro.html"> <button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                   </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Repositor</h5>
+                <p class="card-text">É o profissional que organiza, repõe, conserva e precifica os produtos de um estabelecimento. Sua tarefa também é controlar estoque, solicitando a compra dos materiais necessários.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="repositor.html"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga3.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Cozinheiro</h5>
+                <p class="card-text">Efetivo – CLT desejável experiência na área.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                   <a href="cozinheiro.html"> <button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga1.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Assistente Administrativo</h5>
+                <p class="card-text">Perfil: Organização, autogestão, proatividade e boa comunicação . Conhecimento: Intermediário em Pacote Office.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="assistente.html"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Estágio em Enfermagem</h5>
+                <p class="card-text"> Atividades: Auxiliar a equipe e realizar acompanhamento da rotina do setor.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                   <a href="enfermagem.html"> <button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga3.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Telemarketing</h5>
+                <p class="card-text">Tipo de contrato e Jornada: Efetivo – CLT - Parcial tardes.
+                  Área Profissional: Operacional em Telemarketing - Telemarketing / Call Center Receptivo.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                   <a href="telemarketing.html"> <button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                   
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga1.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Operadora de Supermercado</h5>
+                <p class="card-text">Regime de Contratação: Ex: Efetivo – CLT, Descrição: experiência na área.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="caixa.html"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Atendente</h5>
+                <p class="card-text">Cargo: ATENDIMENTO AO CLIENTE (Whatsapp,ligação,presencial) Atividades: Atendimento e Vendas.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="atendente.html"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga3.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Tecnico de Enfermagem</h5>
+                <p class="card-text">Experiência em Centro Cirúrgico e acompanhamento do paciente, em clínicas e ou hospitais. Experiência em medicação. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="tecenfermagem.html"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+           
+            <div class="card shadow-sm">
+              <img src="img/vaga1.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Recepcionista</h5>
+                <p class="card-text">Recepcionista - Setor de autorização e marcação de cirurgias.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                   <a href="recepcionista.html"> <button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                   </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Entregador Delivery</h5>
+                <p class="card-text"> CNH AB DEFINITIVA, GOSTAR DE VENDAS, TER VONTADE DE TRABALHAR.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="delivery.html"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/vaga3.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+  
+              <div class="card-body">
+                <h5>Vaga para Auxiliar de Manutenção</h5>
+                <p class="card-text">troca de lâmpadas, pinturas, mudanças entre unidades, reparo em portas/mesas/gavetas, consertos de torneiras entre outras atividades do cargo.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                   <a href="auxmanutencao.html"> <button type="button" class="btn btn-sm btn-outline-secondary">Ver Mais ></button></a>
+                    
+                  </div>
+                  <small class="text-muted">03/04</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+  
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+        <li class="nav-item"><a href="sobre.html" class="nav-link px-2 text-muted">Sobre Nós</a></li>
+        <li class="nav-item"><a href="cadastro.html" class="nav-link px-2 text-muted">Cadastro</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Vagas</a></li>
+        
+      </ul>
+      <p class="text-center text-muted">&copy; 2023 Empregador Brasil, Inc</p>
+    </footer>
+  
+  
+      <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  
+        
+    </body>
+  </html>
+  
